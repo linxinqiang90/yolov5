@@ -5,7 +5,7 @@ python train.py --img-size 640 --batch-size 3 --epochs 600 --data jewelry.yaml -
 
 ####resume
 ```shell
-python train.py --img-size 640 --batch-size 3 --epochs 600 --data jewelry.yaml --resume runs/train/exp53/weights/last.pt --single-cls 
+python train.py --img-size 640 --batch-size 5 --epochs 600 --data jewelry.yaml --resume runs/train/exp53/weights/last.pt --single-cls 
 ```
 
 ####inference
