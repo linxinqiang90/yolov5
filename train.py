@@ -414,6 +414,8 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
                         'wandb_id': wandb_logger.wandb_run.id if wandb_logger.wandb else None}
 
                 # Save last, best and delete
+                epoch_result = str(Path(opt.save_dir))+"/weights/epoch_"+str(epoch)+".pt"
+                torch.save(ckpt, epoch_result)
                 torch.save(ckpt, last)
                 if best_fitness == fi:
                     torch.save(ckpt, best)
