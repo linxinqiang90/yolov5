@@ -184,7 +184,7 @@ We are super excited about our first-ever Ultralytics YOLOv5 🚀 EXPORT Competi
 <a href="https://github.com/ultralytics/yolov5/discussions/3213">
     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-export-competition.png"/>
 </a>
-</div>
+</div>~~~~
 
 
 ## <div align="center">Why YOLOv5</div>
